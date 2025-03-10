@@ -1,0 +1,45 @@
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  width: 100vw;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 6px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.btn-container {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+  width: 50%;
+  transform: translate(50%, 0);
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0px 0px .9310142993927002px 0px rgba(0, 0, 0, .17), 0px 0px 3.1270833015441895px 0px rgba(0, 0, 0, .08), 0px 7px 14px 0px rgba(0, 0, 0, .05);
+  border-radius: 4px;
+  padding: 6px;
+  position: relative;
+  transition: box-shadow 0.5 sease-in-out;
+  position: fixed;
+  top: 54px;
+  left: 0;
+}
+
+.operate-container {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  height: 100%;
+}
