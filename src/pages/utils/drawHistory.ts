@@ -31,6 +31,6 @@ class DrawHistory {
     this.historyStack = [];
   }
 }
-
+// 单例模式
 export const drawHistory = new DrawHistory();
 
